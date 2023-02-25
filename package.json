@@ -1,0 +1,25 @@
+{
+  "name": "linter-auto-check",
+  "version": "1.0.0",
+  "description": "Experiment to inform eslint syntax check automatically at commit time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"eslint": "eslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taiki-ss/linter-auto-check.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taiki-ss/linter-auto-check/issues"
+  },
+  "homepage": "https://github.com/Taiki-ss/linter-auto-check#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "typescript": "^4.9.5"
+  }
+}
